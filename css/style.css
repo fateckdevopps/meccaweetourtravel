@@ -4,6 +4,7 @@
     --secondary: #FE8800;
     --light: #F5F5F5;
     --dark: #14141F;
+    --grey:#f8ffff;
 }
 
 .fw-medium {
@@ -94,7 +95,10 @@
     padding: 20px 0;
     color: var(--dark) !important;
 }
-
+.sticky-top.navbar-light .navbar-nav .nav-link {
+    padding: 20px 0;
+    color: var(--light) !important;
+}
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary) !important;
@@ -124,7 +128,7 @@
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
-        color: var(--dark) !important;
+        color: var(--light) !important;
     }
 
     .navbar-light .navbar-brand img {
@@ -144,7 +148,7 @@
     
     .sticky-top.navbar-light {
         position: fixed;
-        background: #7e3202;
+        background: #3a1600;
     }
 
     .navbar-light .navbar-nav .nav-link::before {
@@ -211,7 +215,9 @@
     background: var(--primary);
     z-index: -1;
 }
-
+.mb-4 {
+    color: #3a1600;
+}
 .section-title.text-start::before {
     width: calc(100% + 40px);
     left: 0;
